@@ -1,3 +1,18 @@
+
+.PHONY: init-v212
+init-v212:
+	ln -s VERSION_212 VERSION
+	ln -s patches-gitops-engine-v2.2.0 patches-gitops-engine
+	ln -s patches-argo-cd-v2.12 patches-argo-cd
+	make init
+
+.PHONY: init-v211
+init-v211:
+	ln -s VERSION_211 VERSION
+	ln -s patches-gitops-engine-v2.2.0 patches-gitops-engine
+	ln -s patches-argo-cd-v2.11 patches-argo-cd
+	make init
+
 .PHONY: init-v210
 init-v210:
 	ln -s VERSION_210 VERSION
