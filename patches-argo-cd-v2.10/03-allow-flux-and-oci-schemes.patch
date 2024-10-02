@@ -10,10 +10,10 @@ Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
  3 files changed, 14 insertions(+)
 
 diff --git a/reposerver/repository/repository.go b/reposerver/repository/repository.go
-index 5d11a6438..5085cd2a3 100644
+index be64c4598..c42da5eaa 100644
 --- a/reposerver/repository/repository.go
 +++ b/reposerver/repository/repository.go
-@@ -2476,6 +2476,11 @@ func (s *Service) TestRepository(ctx context.Context, q *apiclient.TestRepositor
+@@ -2477,6 +2477,11 @@ func (s *Service) TestRepository(ctx context.Context, q *apiclient.TestRepositor
  	}
  	check := checks[repo.Type]
  	apiResp := &apiclient.TestRepositoryResponse{VerifiedRepository: false}
@@ -26,10 +26,10 @@ index 5d11a6438..5085cd2a3 100644
  	if err != nil {
  		return apiResp, fmt.Errorf("error testing repository connectivity: %w", err)
 diff --git a/server/application/application.go b/server/application/application.go
-index 8ee16b934..83cef54ca 100644
+index 5bd47adc3..c93222e8c 100644
 --- a/server/application/application.go
 +++ b/server/application/application.go
-@@ -2027,6 +2027,10 @@ func (s *Server) resolveRevision(ctx context.Context, app *appv1.Application, sy
+@@ -2036,6 +2036,10 @@ func (s *Server) resolveRevision(ctx context.Context, app *appv1.Application, sy
  			// If it's already a commit SHA, then no need to look it up
  			return ambiguousRevision, ambiguousRevision, nil
  		}
@@ -41,7 +41,7 @@ index 8ee16b934..83cef54ca 100644
  
  	resolveRevisionResponse, err := repoClient.ResolveRevision(ctx, &apiclient.ResolveRevisionRequest{
 diff --git a/util/argo/argo.go b/util/argo/argo.go
-index 36e513cf0..ae3ceea5a 100644
+index 49862bb64..1a5e59a1b 100644
 --- a/util/argo/argo.go
 +++ b/util/argo/argo.go
 @@ -291,6 +291,11 @@ func ValidateRepo(

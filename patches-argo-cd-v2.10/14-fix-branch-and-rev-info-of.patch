@@ -8,7 +8,7 @@ Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
  1 file changed, 45 insertions(+), 13 deletions(-)
 
 diff --git a/controller/cache/info.go b/controller/cache/info.go
-index ffa4ae32f..25cb52e8c 100644
+index e306ef047..88282515a 100644
 --- a/controller/cache/info.go
 +++ b/controller/cache/info.go
 @@ -70,15 +70,31 @@ func populateNodeInfo(un *unstructured.Unstructured, res *ResourceInfo, customLa
