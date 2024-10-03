@@ -1,8 +1,8 @@
 add tilt dev support
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  Makefile               |   23 ++--
  Tiltfile               |   14 ++
@@ -58,7 +58,7 @@ index 000000000..05e2ffaf6
 +k8s_yaml('argocd-server-dev.yaml')
 +
 +custom_build(
-+  'ghcr.io/flux-subsystem-argo/fsa/argocd',
++  'ghcr.io/prokress/fsa/argocd',
 +  'DEV_IMAGE=true DEV_IMAGE_REF=$EXPECTED_REF make image',
 +  ['.'],
 +)
@@ -66,8 +66,8 @@ index 000000000..05e2ffaf6
 +# Configure the 'argocd-server' deployment in the 'argocd' namespace
 +k8s_resource(workload='argocd-server', port_forwards=8080)
 +
-+# EXPECTED_REF=ghcr.io/flux-subsystem-argo/fsa/argocd:tilt-build-1693653983
-+# EXPECTED_IMAGE=flux-subsystem-argo/fsa/argocd
++# EXPECTED_REF=ghcr.io/prokress/fsa/argocd:tilt-build-1693653983
++# EXPECTED_IMAGE=prokress/fsa/argocd
 +# EXPECTED_TAG=tilt-build-1693653983
 diff --git a/argocd-server-dev.yaml b/argocd-server-dev.yaml
 new file mode 100644
@@ -317,7 +317,7 @@ index 000000000..425837529
 +                  key: server.enable.proxy.extension
 +                  name: argocd-cmd-params-cm
 +                  optional: true
-+          image: ghcr.io/flux-subsystem-argo/fsa/argocd:v2.8.1-fl.16-main-0a0a2f19
++          image: ghcr.io/prokress/fsa/argocd:v2.8.1-fl.16-main-0a0a2f19
 +          imagePullPolicy: Always
 +          livenessProbe:
 +            httpGet:

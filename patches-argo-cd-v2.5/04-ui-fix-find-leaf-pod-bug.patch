@@ -1,8 +1,8 @@
 ui: fix find leaf pod bug
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  .../resource-details/resource-details.tsx          |   10 ++++++----
  ui/src/app/applications/components/utils.tsx       |   13 ++++++++++++-

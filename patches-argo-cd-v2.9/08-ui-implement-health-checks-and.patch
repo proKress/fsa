@@ -1,8 +1,8 @@
 ui: implement health checks and actions
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  .../Kustomization/actions/action_test.yaml         |    4 ++
  .../Kustomization/actions/discovery.lua            |    3 ++

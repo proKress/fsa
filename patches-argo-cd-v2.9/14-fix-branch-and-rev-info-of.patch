@@ -1,8 +1,8 @@
 fix branch and rev info of flux v2
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  controller/cache/info.go |   58 ++++++++++++++++++++++++++++++++++++----------
  1 file changed, 45 insertions(+), 13 deletions(-)

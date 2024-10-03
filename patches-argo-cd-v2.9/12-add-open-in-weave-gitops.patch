@@ -1,8 +1,8 @@
 add open in weave gitops
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  ui/src/app/applications/components/utils.tsx |   45 ++++++++++++++++++++++++++
  1 file changed, 45 insertions(+)

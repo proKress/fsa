@@ -1,4 +1,6 @@
-# Development guide lines
+# 
+
+Development guide lines
 
 ## Stacked Git
 
@@ -44,6 +46,7 @@ git apply -3 ../patches-argo-cd-v2.2/01<press tab>
 ```
 
 Example of a conflict. The "ours" marker is the base version (the upstream ArgoCD), the "theirs" marker is our patch.
+
 ```
 <<<<<<< ours
 		// If the length of revisions is not same as the length of sources,
@@ -215,7 +218,7 @@ Unmerged paths:
 
 ... We then fix to resolve conflicts again, then commit
 
-$ COMMIT_MESSAGE=$(cat ../patches-argo-cd-v2.7/12-change-logo-to-flamingo.patch | head -1)                                                                                                                           
+$ COMMIT_MESSAGE=$(cat ../patches-argo-cd-v2.7/12-change-logo-to-flamingo.patch | head -1)                                                                                                                         
 $ git commit -s -am "${COMMIT_MESSAGE}"
 [workspace b04e1fe44] change logo to flamingo
  7 files changed, 261 insertions(+), 26 deletions(-)

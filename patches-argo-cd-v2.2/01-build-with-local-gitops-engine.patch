@@ -1,8 +1,8 @@
 build with local gitops engine
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  .gitignore |    4 +++-
  Dockerfile |   11 ++++++++++-
@@ -49,7 +49,7 @@ index d13580fc1..88aa35188 100644
  ####################################################################################################
  FROM argocd-base
 +
-+LABEL org.opencontainers.image.source https://github.com/flux-subsystem-argo/fsa
++LABEL org.opencontainers.image.source https://github.com/prokress/fsa
 +
  COPY --from=argocd-build /go/src/github.com/argoproj/argo-cd/dist/argocd* /usr/local/bin/
  

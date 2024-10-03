@@ -1,8 +1,8 @@
 fix special supported schemes
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  server/application/application.go |    9 +++++----
  1 file changed, 5 insertions(+), 4 deletions(-)

@@ -1,8 +1,8 @@
 ui: show kstatus in ui
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  .../application-node-info.tsx                      |   13 +++++++++++++
  1 file changed, 13 insertions(+)

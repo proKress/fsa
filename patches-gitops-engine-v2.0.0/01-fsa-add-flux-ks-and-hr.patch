@@ -1,8 +1,8 @@
 FSA - add Flux KS and HR references
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  pkg/cache/cluster_ref_test.go |   59 +++++++++++++++++++++
  pkg/cache/cluster_test.go     |   45 +++++++++-------

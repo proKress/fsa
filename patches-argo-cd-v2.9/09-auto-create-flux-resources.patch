@@ -1,8 +1,8 @@
 auto create flux resources
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  controller/state_fsa.go     |  154 +++++++++++++++++++++++++++-------
  controller/sync_fsa.go      |  193 +++++++++++++++++++++++++++++++++++++++++++

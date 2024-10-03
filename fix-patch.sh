@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 INDEX=$(printf "%02s" $1)
 # index is like 01, 02, 03

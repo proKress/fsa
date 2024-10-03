@@ -1,8 +1,8 @@
 change logo to flamingo
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  ui/src/app/login/components/login.scss |    2 
  ui/src/app/login/components/login.tsx  |    4 -
@@ -45,7 +45,7 @@ index db67ff185..75ecd6a27 100644
                      )}
                      <div className='login__footer'>
 -                        <a href='https://argoproj.io' target='_blank'>
-+                        <a href='https://github.com/flux-subsystem-argo/flamingo' target='_blank'>
++                        <a href='https://github.com/prokress/flamingo' target='_blank'>
                              <img className='logo-image' src='assets/images/argologo.svg' alt='argo' />
                          </a>
                      </div>

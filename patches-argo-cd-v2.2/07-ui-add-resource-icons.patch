@@ -1,8 +1,8 @@
 ui: add resource icons
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  ui/src/app/applications/components/resources.ts |   10 +++++
  ui/src/assets/images/resources/flux.svg         |   45 +++++++++++++++++++++++

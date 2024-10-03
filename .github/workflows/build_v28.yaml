@@ -26,8 +26,8 @@ jobs:
         shell: bash
         run: |
           sudo apt-get install -y stgit
-          git config --global user.name "Chanwit Kaewkasi"
-          git config --global user.email "chanwit@gmail.com"
+          git config --global user.name "proKress"
+          git config --global user.email "contact@prokress.bar"
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v5.1
@@ -43,7 +43,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build v2.8
-        if: github.repository == 'flux-subsystem-argo/fsa'
+        if: github.repository == 'prokress/fsa'
         run: |
           ln -s VERSION_28 VERSION
           ln -s patches-argo-cd-v2.8 patches-argo-cd
@@ -52,6 +52,6 @@ jobs:
           bash -x ./init.sh
           source ./VERSION
           VERSION=${BASE_VERSION}-${SUFFIX_VERSION}-${{ steps.prep.outputs.VERSION }}
-          ( cd argo-cd && IMAGE_NAMESPACE=ghcr.io/flux-subsystem-argo/fsa IMAGE_TAG=$VERSION DOCKER_PUSH=true make image )
+          ( cd argo-cd && IMAGE_NAMESPACE=ghcr.io/prokress/fsa IMAGE_TAG=$VERSION DOCKER_PUSH=true make image )
           unlink patches-argo-cd
           unlink VERSION

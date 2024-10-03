@@ -1,8 +1,8 @@
 change logo to flamingo
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  ui/src/app/login/components/login.scss |    2 
  ui/src/app/login/components/login.tsx  |    4 -
@@ -31,7 +31,7 @@ index ac93fc3a3..2a78bc0dd 100644
                  -webkit-filter: invert(50%);
              }
 diff --git a/ui/src/app/login/components/login.tsx b/ui/src/app/login/components/login.tsx
-index b00ef04bc..050a74e90 100644
+index b00ef04bc..a0e7151c8 100644
 --- a/ui/src/app/login/components/login.tsx
 +++ b/ui/src/app/login/components/login.tsx
 @@ -53,7 +53,7 @@ export class Login extends React.Component<RouteComponentProps<{}>, State> {
@@ -48,7 +48,7 @@ index b00ef04bc..050a74e90 100644
                      )}
                      <div className='login__footer'>
 -                        <a href='https://argoproj.io' target='_blank'>
-+                        <a href='https://github.com/flux-subsystem-argo/flamingo' target='_blank'>
++                        <a href='https://github.com/prokress/flamingo' target='_blank'>
                              <img className='logo-image' src='assets/images/argologo.svg' alt='argo' />
                          </a>
                      </div>

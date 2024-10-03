@@ -1,8 +1,8 @@
 allow flux and oci schemes
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  reposerver/repository/repository.go |    5 +++++
  server/application/application.go   |    4 ++++

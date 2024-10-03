@@ -1,8 +1,8 @@
 add health message for helm
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  .../HelmRelease/actions/discovery.lua              |    3 ++
  .../HelmRelease/actions/reconcile/action.lua       |    9 +++++++

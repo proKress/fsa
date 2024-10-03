@@ -1,8 +1,8 @@
 build with local gitops engine
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  .gitignore |    2 ++
  Dockerfile |    9 +++++++++
@@ -20,7 +20,7 @@ index ab17deb0d..c28c77a6a 100644
 +
 +gitops-engine/
 diff --git a/Dockerfile b/Dockerfile
-index 019d39ad5..1d5d906ac 100644
+index 019d39ad5..acac2958d 100644
 --- a/Dockerfile
 +++ b/Dockerfile
 @@ -105,7 +105,9 @@ FROM --platform=$BUILDPLATFORM docker.io/library/golang:1.21.10@sha256:16438a8e6
@@ -38,7 +38,7 @@ index 019d39ad5..1d5d906ac 100644
  ####################################################################################################
  FROM argocd-base
 +
-+LABEL org.opencontainers.image.source https://github.com/flux-subsystem-argo/fsa
++LABEL org.opencontainers.image.source https://github.com/prokress/fsa
 +
  COPY --from=argocd-build /go/src/github.com/argoproj/argo-cd/dist/argocd* /usr/local/bin/
  

@@ -1,8 +1,8 @@
 add oci repository verification support
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  .../GitRepository/actions/action_test.yaml         |    4 --
  .../actions/testdata/gitrepo-requested.yaml        |   33 --------------------

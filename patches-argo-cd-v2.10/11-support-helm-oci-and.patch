@@ -1,8 +1,8 @@
 support helm oci and ocirepository
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  controller/state_fsa.go |    7 ++--
  controller/sync_fsa.go  |   89 ++++++++++++++++++++++++++++++++++++++++++++++-

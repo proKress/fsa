@@ -1,8 +1,8 @@
 upgrade to flux v2.0.0-rc.1
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  controller/state_fsa.go |   69 +++++++++++++++++++++++++++++++++--------------
  controller/sync_fsa.go  |    4 +--

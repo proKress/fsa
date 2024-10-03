@@ -1,8 +1,8 @@
 add flux options to the ui
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  .../application-sync-options.tsx                   |    2 ++
  1 file changed, 2 insertions(+)

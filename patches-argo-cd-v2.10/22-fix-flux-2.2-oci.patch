@@ -1,8 +1,8 @@
 fix flux 2.2 oci helmrepository health check
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <chanwit@gmail.com>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <chanwit@gmail.com>
 ---
  .../HelmRepository/health.lua                      |   11 +++++++++++
  1 file changed, 11 insertions(+)

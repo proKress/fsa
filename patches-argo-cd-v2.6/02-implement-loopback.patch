@@ -1,8 +1,8 @@
 implement loopback reconciliation
 
-From: Chanwit Kaewkasi <chanwit@gmail.com>
+From: proKress <contact@prokress.bar>
 
-Signed-off-by: Chanwit Kaewkasi <chanwit@gmail.com>
+Signed-off-by: proKress <contact@prokress.bar>
 ---
  controller/state.go     |   16 ++++-
  controller/state_fsa.go |  139 +++++++++++++++++++++++++++++++++++++++++++++++
